@@ -2436,49 +2436,6 @@ input, select, textarea {
 	}
 
 /* Top Nav */
-	
-
-	#header nav {
-		position: absolute;
-		right: 1em;
-		top: 0;
-	}
-
-		#header nav ul {
-			margin: 0;
-		}
-
-			#header nav ul li {
-				display: inline-block;
-				margin-left: 1em;
-			}
-
-				#header nav ul li a, #header nav ul li span {
-					border: 0;
-					color: inherit;
-					display: inline-block;
-					height: inherit;
-					line-height: inherit;
-					outline: 0;
-				}
-
-					#header nav ul li a.button, #header nav ul li span.button {
-						height: 2em;
-						line-height: 2em;
-						padding: 0 1.25em;
-					}
-
-					#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
-						margin-right: 0.5em;
-					}
-
-				#header nav ul li.active > a, #header nav ul li.active > span {
-					color: #e44c65;
-				}
-
-				#header nav ul li > ul {
-					display: none;
-				}
 
 /* Actions */
 
