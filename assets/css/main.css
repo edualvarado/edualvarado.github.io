@@ -2439,7 +2439,7 @@ input, select, textarea {
 
 	/* Add a black background color to the top navigation */
 	.topnav {
-	  background-color: rgba(0, 0, 0, 0.5);
+	  background-color: rgba(0, 0, 0, 0);
 	  overflow: hidden;
 	}
 
