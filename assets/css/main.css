@@ -2439,7 +2439,7 @@ input, select, textarea {
 /* Top Nav ----- DRAFT */
 
 	/* Hide the link that should open and close the topnav on small screens */
-	#header_nav .icon {
+	#header_nav icon {
 	  display: none;
 	}
 
