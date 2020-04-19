@@ -2438,7 +2438,7 @@ input, select, textarea {
 
 /* Top Nav ----- DRAFT */
 
-	@media screen and (max-width: 44em) {
+	@media screen and (max-width: 480px) {
 	  nav[role="nav"] {
 	    ul > li {
 	      width: 100%;
