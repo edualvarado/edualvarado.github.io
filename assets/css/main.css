@@ -2556,7 +2556,7 @@ input, select, textarea {
 	    float: none;
 	    display: block;
 	    text-align: left;
-	    background-color: transparent;
+	    background-color: turquoise;
 	  }
 
 	  #header_nav .responsive a {
