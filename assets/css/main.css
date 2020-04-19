@@ -3515,14 +3515,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 		
-		/* Menu -- DRAFT */
-		
-			#header_nav nav {
-				ul > li {
-      					width: 100%;
-    				}
-			}
-		
 		/* Button */
 
 			input[type="submit"],
