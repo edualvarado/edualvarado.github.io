@@ -2439,7 +2439,7 @@ input, select, textarea {
 /* Top Nav ----- DRAFT */
 
 	@media screen and (max-width: 480px) {
-	  nav[role="nav"] {
+	  nav[role="navbar"] {
 	    ul > li {
 	      width: 100%;
 	    }
