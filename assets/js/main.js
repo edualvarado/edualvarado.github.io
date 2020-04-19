@@ -32,6 +32,7 @@
 })(jQuery);
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+/*
 function myFunction() {
   var x = document.getElementById("navbar");
   if (x.className === "topnav") {
@@ -40,6 +41,7 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+*/
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 /*
