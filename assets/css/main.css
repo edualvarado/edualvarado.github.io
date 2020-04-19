@@ -2438,6 +2438,11 @@ input, select, textarea {
 
 /* Top Nav ----- DRAFT */
 
+	/* Style the links inside the navigation bar */
+	.topnav a {
+	  float: left;
+	}
+
 	/* Hide the link that should open and close the topnav on small screens */
 	.topnav .icon {
 	  display: none;
