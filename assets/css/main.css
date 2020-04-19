@@ -3514,6 +3514,14 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
+		
+		/* Menu */
+		
+			  nav[id="nav"] {
+			    ul > li {
+			      width: 100%;
+			    }
+			  }
 
 		/* Button */
 
