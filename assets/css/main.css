@@ -2438,6 +2438,14 @@ input, select, textarea {
 
 /* Top Nav ----- DRAFT */
 
+	@media screen and (max-width: 44em) {
+	  nav[role="nav"] {
+	    ul > li {
+	      width: 100%;
+	    }
+	  }
+	}
+
 /* Header_nav ----- DRAFT */
 
 	#page-wrapper {
