@@ -2457,6 +2457,10 @@ input, select, textarea {
 		z-index: 100;
 	}
 
+		#header_nav .icon {
+  			display: none;
+		}
+
 		#header_nav h1 {
 			height: inherit;
 			left: 1.25em;
