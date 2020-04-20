@@ -2437,7 +2437,42 @@ input, select, textarea {
 
 /* Thumbnails_portolio ----- DRAFT */
 
-/* Buttons_portfolio ----- DRAFT */
+/* Portfolio ----- DRAFT */
+	
+	.row_portfolio {
+	  margin: 8px -16px;
+	}
+
+	/* Add padding BETWEEN each column (if you want) */
+	.row_portfolio,
+	.row_portfolio > .column_portfolio {
+	  padding: 8px;
+	}
+
+	/* Create three equal columns that floats next to each other */
+	.column_portfolio {
+	  float: left;
+	  width: 33.33%;
+	  display: none; /* Hide columns by default */
+	}
+
+	/* Clear floats after rows */
+	.row_portfolio:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Content */
+	.content_portfolio {
+	  background-color: white;
+	  padding: 10px;
+	}
+
+	/* The "show" class is added to the filtered elements */
+	.show_portfolio {
+	  display: block;
+	}
 
 	/* Style the buttons */
 	.btn_portfolio {
