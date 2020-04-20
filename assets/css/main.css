@@ -2506,6 +2506,118 @@ input, select, textarea {
 
 		}
 
+/* Main_portfolio ----- DRAFT */
+
+	#main_portfolio {
+			-moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+			-webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+			-ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+			transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+			-webkit-overflow-scrolling: touch;
+			position: fixed;
+			top: 0;
+			width: 22.5em;
+			height: 100%;
+			background: #fff;
+			outline: 0;
+			overflow-x: hidden;
+			overflow-y: auto;
+			text-align: right;
+			visibility: visible;
+			z-index: 10000;
+			right: 0;
+		}
+
+		#main_portfolio .toggle {
+					-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+					position: absolute;
+					top: 0;
+					width: 4em;
+					height: 4em;
+					background-image: url("images/close-small-alt.svg");
+					background-repeat: no-repeat;
+					background-size: 32px 32px;
+					cursor: pointer;
+					display: none;
+					z-index: 1;
+					background-position: 0.5em 0.5em;
+					left: 0;
+				}
+
+		body.fullscreen #main_portfolio {
+			visibility: hidden;
+			right: -22.5em;
+		}
+
+		body.is-preload-1 #main_portfolio {
+			opacity: 0;
+			right: -2em;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#main_portfolio {
+				width: 19em;
+			}
+
+				body.fullscreen #main_portfolio {
+					right: -19em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#main_portfolio {
+				background: rgba(255, 255, 255, 0.925);
+			}
+
+				#main_portfolio .toggle {
+					display: block;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#main_portfolio {
+					-moz-transition: opacity 0.5s ease, visibility 0.5s;
+					-webkit-transition: opacity 0.5s ease, visibility 0.5s;
+					-ms-transition: opacity 0.5s ease, visibility 0.5s;
+					transition: opacity 0.5s ease, visibility 0.5s;
+					width: 100%;
+					background: #fff;
+					text-align: center;
+			}
+
+				body.is-preload-1 #main_portfolio {
+					left: auto !important;
+					right: auto !important;
+				}
+
+				body.fullscreen #main_portfolio {
+					left: auto !important;
+					right: auto !important;
+					opacity: 0;
+				}
+
+				#main_portfolio .toggle {
+					display: none;
+				}
+
+		}
+
+/* Header_portfolio ----- DRAFT */
+
+	#header_portfolio {
+		padding: 3em 2.25em 1.75em 2.25em ;
+	}
+
+		#header_portfolio h1 {
+				font-size: 2.25em;
+				font-weight: 700;
+		}
+
 /* Header_nav ----- DRAFT */
 
 	#page-wrapper {
