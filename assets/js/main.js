@@ -60,7 +60,7 @@ window.addEventListener('resize', () => {
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("column");
+  x = document.getElementsByClassName("column_portfolio");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
@@ -96,7 +96,7 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
+var btns = btnContainer.getElementsByClassName("btn_portfolio");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
