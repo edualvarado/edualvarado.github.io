@@ -45,7 +45,7 @@ function myFunction() {
 
 const navigationBar = document.getElementById("nav");
 
-function myFunction() {
+function myTopMenu() {
   navigationBar.classList.toggle('responsive');
 }
 
