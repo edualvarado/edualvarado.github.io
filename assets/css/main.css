@@ -2437,6 +2437,28 @@ input, select, textarea {
 
 /* Thumbnails_portolio ----- DRAFT */
 
+/* Buttons_portfolio ----- DRAFT */
+
+	/* Style the buttons */
+	.btn_portfolio {
+	  border: none;
+	  outline: none;
+	  padding: 12px 16px;
+	  background-color: white;
+	  cursor: pointer;
+	}
+
+	/* Add a grey background color on mouse-over */
+	.btn_portfolio:hover {
+	  background-color: #ddd;
+	}
+
+	/* Add a dark background color to the active button */
+	.btn_portfolio.active {
+	  background-color: #666;
+	   color: white;
+	}
+
 	
 /* Main_portfolio ----- DRAFT */
 
