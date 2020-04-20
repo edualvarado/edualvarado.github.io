@@ -2435,9 +2435,9 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-/* Thumbnails ----- DRAFT */
+/* Thumbnails_portolio ----- DRAFT */
 
-	#thumbnails {
+	#thumbnails_portfolio {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2449,14 +2449,14 @@ input, select, textarea {
 		padding: 0 0.75em;
 	}
 
-		#thumbnails article {
+		#thumbnails_portfolio article {
 			position: relative;
 			width: 50%;
 			background: #101010;
 			outline: 0;
 		}
 
-			#thumbnails article .thumbnail {
+			#thumbnails_portfolio article .thumbnail_portfolio {
 				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 				display: block;
 				position: relative;
@@ -2464,12 +2464,12 @@ input, select, textarea {
 				outline: 0;
 			}
 
-				#thumbnails article .thumbnail img {
+				#thumbnails_portfolio article .thumbnail_portfolio img {
 					display: block;
 					width: 100%;
 				}
 
-				#thumbnails article .thumbnail:before {
+				#thumbnails_portfolio article .thumbnail_portfolio:before {
 					pointer-events: none;
 					-moz-transition: opacity 0.25s ease;
 					-webkit-transition: opacity 0.25s ease;
@@ -2486,21 +2486,21 @@ input, select, textarea {
 					z-index: 1;
 				}
 
-				#thumbnails article .thumbnail:focus:before {
+				#thumbnails_portfolio article .thumbnail_portfolio:focus:before {
 					opacity: 0.5;
 				}
 
-			#thumbnails article h2, #thumbnails article p {
+			#thumbnails_portfolio article h2, #thumbnails_portfolio article p {
 				display: none;
 			}
 
-			#thumbnails article.active .thumbnail:before {
+			#thumbnails_portfolio article.active .thumbnail_portfolio:before {
 				opacity: 1;
 			}
 
 		@media screen and (max-width: 480px) {
 
-			#thumbnails article .thumbnail:before {
+			#thumbnails_portfolio article .thumbnail_portfolio:before {
 				display: none;
 			}
 
