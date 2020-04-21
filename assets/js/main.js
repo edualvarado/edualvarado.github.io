@@ -60,7 +60,7 @@ window.addEventListener('resize', () => {
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("column_portfolio");
+  x = document.getElementsByClassName("col-4");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
