@@ -2440,8 +2440,7 @@ input, select, textarea {
 /* Portfolio ----- DRAFT */
 	
 	.row_portfolio {
-	  /*margin: 0px -16px;*/
-	  margin-bottom: -20px;
+	  margin: 8px -16px;
 	}
 
 	/* Add padding BETWEEN each column (if you want) */
@@ -2455,6 +2454,7 @@ input, select, textarea {
 	  float: left;
 	  width: 33.33%;
 	  display: none; /* Hide columns by default */
+	  margin-bottom: -36px; /* ADDED - DRAFT */
 	}
 
 	/* Clear floats after rows */
