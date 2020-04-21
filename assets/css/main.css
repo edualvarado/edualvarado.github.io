@@ -2440,7 +2440,8 @@ input, select, textarea {
 /* Portfolio ----- DRAFT */
 	
 	.row_portfolio {
-	  margin: 8px -16px;
+	  margin: 8px -8px;
+	  /*margin: 8px -16px;*/
 	}
 
 	/* Add padding BETWEEN each column (if you want) */
