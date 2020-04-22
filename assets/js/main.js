@@ -110,6 +110,7 @@ for (var i = 0; i < btns.length; i++) {
 var modal = document.getElementById('myModal');
 var images = document.getElementsByClassName('myImages');
 var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
 
 for (var i = 0; i < images.length; i++) {
   var img = images[i];
@@ -117,6 +118,7 @@ for (var i = 0; i < images.length; i++) {
   	e.preventDefault()
     	modal.style.display = "block";
     	modalImg.src = this.href;
+	captionText.innerHTML = this.alt;
   }
 }
 
