@@ -105,3 +105,24 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+/* Modal ----- DRAFT */
+
+var modal = document.getElementById('myModal');
+var images = document.getElementsByClassName('myPhotos');
+var modalImg = document.getElementById("img01");
+
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  img.onclick = function(e) {
+  	e.preventDefault()
+    	modal.style.display = "block";
+    	modalImg.src = this.href;
+  }
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
