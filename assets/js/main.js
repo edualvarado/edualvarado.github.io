@@ -108,7 +108,7 @@ for (var i = 0; i < btns.length; i++) {
 /* Modal ----- DRAFT */
 
 var modal = document.getElementById('myModal');
-var images = document.getElementsByClassName('myPhotos');
+var images = document.getElementsByClassName('myImages');
 var modalImg = document.getElementById("img01");
 
 for (var i = 0; i < images.length; i++) {
