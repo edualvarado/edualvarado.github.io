@@ -967,13 +967,16 @@ input, select, textarea {
 		}
 
 			#footer .copyright li {
+				border-left: solid 1px; /* Added */
 				display: inline-block;
+				line-height: 1em; /* Added */
 				font-size: 0.8em;
 				margin-left: 0.35em;
 				padding: 0;
 			}
 
 				#footer .copyright li:first-child {
+					border-left: 0; /* Added */
 					margin-left: 0;
 				}
 
