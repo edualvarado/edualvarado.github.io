@@ -3396,11 +3396,11 @@ input, select, textarea {
 	}
 
 		#footer a {
-			border-bottom-color: #ffffff; /* Before: rgba(255, 255, 255, 0.5) hovering to #ffffff */ 
+			border-bottom-color: rgba(255, 255, 255, 0.5); /* Before: #ffffff hovering to #6bd4c8 */ 
 		}
 
 			#footer a:hover {
-				color: #6bd4c8;
+				color: #ffffff;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
@@ -3478,6 +3478,15 @@ input, select, textarea {
 		#footer .icons {
 			margin: 0;
 		}
+
+			/* ADDED ----- DRAFT */
+			#footer .icons a {
+				border-bottom-color: #ffffff; 
+			}
+
+				#footer .icons a:hover {
+					color: #6bd4c8;
+				}
 
 		#footer .copyright {
 			font-size: 0.8em;
