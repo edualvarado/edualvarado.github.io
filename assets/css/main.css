@@ -3395,11 +3395,11 @@ input, select, textarea {
 	}
 
 		#footer a {
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: #ffffff; /* Before: rgba(255, 255, 255, 0.5) hovering to #ffffff */ 
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				color: #6bd4c8;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
