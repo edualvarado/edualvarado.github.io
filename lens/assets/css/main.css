@@ -837,7 +837,15 @@ input, select, textarea {
 		top: 0;
 		width: 22.5em;
 		height: 100%;
+		
+		/* Chaing background ----- DRAFT*/
 		background: #fff;
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-position: top left,						center center,					center center;
+		background-size: auto,
+		
+		/* ----- */
+		
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
