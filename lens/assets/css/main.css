@@ -137,8 +137,16 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #fff;
-		color: #fff;
+		/*background-color: #fff;
+		color: #fff;*/
+		
+		/* Changing background ----- DRAFT*/
+		background: #fff;
+		background-attachment: fixed,							fixed,							fixed;
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-position: top left,						center center,					center center;
+		background-size: auto,							cover,							cover;
+		/* ----- */
 	}
 
 	body, input, select, textarea {
