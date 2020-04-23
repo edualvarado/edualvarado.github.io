@@ -971,6 +971,15 @@ input, select, textarea {
 		padding: 2.25em 2.25em 1em 2.25em ;
 	}
 
+		/* ADDED ----- DRAFT */
+		#footer a {
+			border-bottom-color: rgba(255, 255, 255, 0.5); 
+		}
+
+			#footer a:hover {
+				color: #ffffff;
+			}
+
 		#footer .copyright {
 			list-style: none;
 			padding: 0;
