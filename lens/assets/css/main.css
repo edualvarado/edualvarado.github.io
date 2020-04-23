@@ -909,10 +909,11 @@ input, select, textarea {
 
 		}
 
+		/*
 		@media screen and (max-width: 980px) {
 
 			#main {
-				/*background: rgba(255, 255, 255, 0.925);*/
+				background: rgba(255, 255, 255, 0.925);
 			}
 
 				#main .toggle {
@@ -920,6 +921,7 @@ input, select, textarea {
 				}
 
 		}
+		/*
 
 		@media screen and (max-width: 480px) {
 
