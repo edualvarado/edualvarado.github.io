@@ -2635,6 +2635,10 @@ input, select, textarea {
 						line-height: inherit;
 						outline: 0;
 					}
+						#header_nav nav ul li a:hover {
+							color: #6bd4c8;
+						}
+
 
 						#header_nav nav ul li a.button, #header_nav nav ul li span.button {
 							height: 2em;
