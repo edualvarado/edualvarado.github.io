@@ -974,11 +974,20 @@ input, select, textarea {
 
 		/* ADDED ----- DRAFT */
 		#footer a {
-			border-bottom-color: rgba(255, 255, 255, 0.5); 
+			border-bottom-color: rgba(255, 255, 255, 0.75); 
 		}
 
 			#footer a:hover {
 				color: #ffffff;
+			}
+
+	/* ADDED ----- DRAFT */
+		#footer .icons a {
+			border-bottom-color: #ffffff; 
+		}
+
+			#footer .icons a:hover {
+				color: #6bd4c8;
 			}
 
 		#footer .copyright {
@@ -1000,14 +1009,14 @@ input, select, textarea {
 					margin-left: 0;
 				}
 
-		/* ADDED ----- DRAFT */
+		/* ADDED ----- DRAFT 
 			#footer .copyright a {
 				border-bottom-color: rgba(255, 255, 255, 0.75); 
 			}
 
 				#footer .copyright a:hover {
 					color: #ffffff;
-				}
+				}*/
 
 /* Thumbnails */
 
