@@ -909,19 +909,19 @@ input, select, textarea {
 
 		}
 
-		/*
+		
 		@media screen and (max-width: 980px) {
-
+			/*
 			#main {
 				background: rgba(255, 255, 255, 0.925);
-			}
+			}*/
 
 				#main .toggle {
 					display: block;
 				}
 
 		}
-		/*
+		
 
 		@media screen and (max-width: 480px) {
 
@@ -931,7 +931,7 @@ input, select, textarea {
 				-ms-transition: opacity 0.5s ease, visibility 0.5s;
 				transition: opacity 0.5s ease, visibility 0.5s;
 				width: 100%;
-				background: #fff;
+				/*background: #fff;*/
 				text-align: center;
 			}
 
