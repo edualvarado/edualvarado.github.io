@@ -2435,9 +2435,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-/* Thumbnails_portolio ----- DRAFT */
-
-/* Portfolio ----- DRAFT */
+/* Portfolio ----- DRAFT - No use */
 	
 	.row_portfolio {
 	  margin: 8px -16px;
@@ -2495,7 +2493,7 @@ input, select, textarea {
 	   color: white;
 	}
 	
-/* Modal_portfolio ----- DRAFT */
+/* Modal_portfolio ----- DRAFT - No use */
 
 	#myImg {
 	  border-radius: 5px;
@@ -2635,6 +2633,7 @@ input, select, textarea {
 						line-height: inherit;
 						outline: 0;
 					}
+
 						#header_nav nav ul li a:hover {
 							color: #6bd4c8;
 						}
@@ -2838,7 +2837,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		color:  #fff; /* Added */
+		color:  #fff; /* Added to be white by default */
 	}
 
 		ul.icons li {
