@@ -744,15 +744,3 @@ var main = (function($) { var _ = {
 	},
 
 }; return _; })(jQuery); main.init();
-
-const navigationBar = document.getElementById("nav");
-
-function myTopMenu() {
-  navigationBar.classList.toggle('responsive');
-}
-
-window.addEventListener('resize', () => {
-  if (window.innerWidth >= 2000 && navigationBar.classList.contains('responsive')) {
-    navigationBar.classList.remove('responsive');
-  }
-})
