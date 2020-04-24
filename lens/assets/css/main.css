@@ -992,7 +992,6 @@ input, select, textarea {
 
 			#header_nav nav ul {
 				margin: 0;
-				font-size: 17px; /* ADDED ----- DRAFT */
 			}
 
 				#header_nav nav ul li {
@@ -1008,6 +1007,7 @@ input, select, textarea {
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
+						font-size: 17px; /* ADDED ----- DRAFT */
 					}
 
 						#header_nav nav ul li a:hover {
