@@ -981,14 +981,18 @@ input, select, textarea {
 				color: #ffffff;
 			}
 
-	/* ADDED ----- DRAFT */
-		#footer .icons a {
-			border-bottom-color: #ffffff; 
+		/* ADDED ----- DRAFT */
+		#footer .icons {
+			margin: 0;
 		}
 
-			#footer .icons a:hover {
-				color: #6bd4c8;
+			#footer .icons a {
+				border-bottom-color: #ffffff; 
 			}
+
+				#footer .icons a:hover {
+					color: #6bd4c8;
+				}
 
 		#footer .copyright {
 			list-style: none;
