@@ -752,7 +752,7 @@ function myTopMenu() {
 }
 
 window.addEventListener('resize', () => {
-  if (window.innerWidth >= 600 && navigationBar.classList.contains('responsive')) {
+  if (window.innerWidth >= 2000 && navigationBar.classList.contains('responsive')) {
     navigationBar.classList.remove('responsive');
   }
 })
