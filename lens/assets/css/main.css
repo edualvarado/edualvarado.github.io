@@ -1007,7 +1007,7 @@ input, select, textarea {
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
-						font-size: 17px; /* ADDED ----- DRAFT */
+						font-size: 16px; /* ADDED ----- DRAFT */
 					}
 
 						#header_nav nav ul li a:hover {
