@@ -992,6 +992,7 @@ input, select, textarea {
 
 			#header_nav nav ul {
 				margin: 0;
+				font-size: 17px; /* ADDED ----- DRAFT */
 			}
 
 				#header_nav nav ul li {
