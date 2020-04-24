@@ -998,9 +998,10 @@ input, select, textarea {
 				}
 
 		#footer .copyright {
+			font-size: 0.8em;
 			list-style: none;
-			padding: 0;
 			color: rgba(255, 255, 255, 0.75);
+			padding: 0;
 		}
 
 			#footer .copyright li {
