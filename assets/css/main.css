@@ -3239,7 +3239,7 @@ input, select, textarea {
 		/* New style1 with more padding */
 		.main.style1_padding {
 			background: #fff;
-			padding: 6em 0 4em 0 ;
+			padding-top: 6em;
 		}
 
 
