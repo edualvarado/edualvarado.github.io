@@ -3235,6 +3235,13 @@ input, select, textarea {
 		.main.style1 {
 			background: #fff;
 		}
+		
+		/* New style1 with more padding */
+		.main.style1_padding {
+			background: #fff;
+			padding: 6em 0 4em 0 ;
+		}
+
 
 		.main.style2 {
 			background-color: #333;
