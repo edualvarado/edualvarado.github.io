@@ -2836,7 +2836,7 @@ input, select, textarea {
 
 	  	#header_nav_bg .responsive ul {}
 
-	  	#header_nav .responsive li:not(.fixed) {
+	  	#header_nav_bg .responsive li:not(.fixed) {
 	    		float: none;
 	    		display: block;
 	    		text-align: left;
