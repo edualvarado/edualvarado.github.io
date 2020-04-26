@@ -1,3 +1,10 @@
+Welcome to my Github Page! 
+
+See LICENSE.txt and LICENSE_webpage_template.txt for more information about the content rights.
+
+HTML5 UP TEMPLATE
+-----------------
+
 Photon by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
