@@ -3243,15 +3243,15 @@ input, select, textarea {
 		}
 			
 			/* DRAFT */
+			/*
 			.main.style1_padding ul {
     				list-style-position: inside;
 			}
 
-			/* DRAFT */
 			.main.style1_padding img {
     				float: left;
 			}
-
+			*/
 
 		.main.style2 {
 			background-color: #333;
