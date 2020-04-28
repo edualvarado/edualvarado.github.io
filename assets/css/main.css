@@ -2632,7 +2632,7 @@ input, select, textarea {
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
-						cursor:pointer; /* ADDED ----- DRAFT */
+						cursor: pointer; /* ADDED ----- DRAFT */
 					}
 
 						#header_nav nav ul li a:hover {
@@ -2719,7 +2719,6 @@ input, select, textarea {
 
 	#header_nav_bg {
 		/*background: rgba(0, 0, 0, 0);*/
-		
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 		background-position: top left,						center center,					center center;
@@ -2998,6 +2997,7 @@ input, select, textarea {
 	ul.major-icons {
 		list-style: none;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.major-icons li {
