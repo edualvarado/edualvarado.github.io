@@ -74,12 +74,6 @@ input, select, textarea {
 
 /* Basic */
 
-	/* ADDED ----- DRAFT
-	#six {
-  		margin-top: 100%;
-  		padding-bottom: 25%;
- 	}  */
-
 	html {
 		box-sizing: border-box;
 	  	scroll-behavior: smooth; /* ADDED ----- DRAFT */
@@ -3237,7 +3231,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 2em 0 0.5em 0 ;
+		padding: 2em 0 1em 0 ;
 	}
 
 		.main.style1 {
