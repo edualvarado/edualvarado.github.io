@@ -2632,7 +2632,7 @@ input, select, textarea {
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
-						cursor:pointer;
+						cursor:pointer; /* ADDED ----- DRAFT */
 					}
 
 						#header_nav nav ul li a:hover {
