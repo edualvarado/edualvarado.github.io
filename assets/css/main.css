@@ -3229,7 +3229,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 4em 0 4em 0 ;
+		padding: 2em 0 2em 0 ;
 	}
 
 		.main.style1 {
@@ -3242,17 +3242,6 @@ input, select, textarea {
 			padding-top: 6em;
 		}
 			
-			/* DRAFT */
-			/*
-			.main.style1_padding ul {
-    				list-style-position: inside;
-			}
-
-			.main.style1_padding img {
-    				float: left;
-			}
-			*/
-
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
