@@ -31,17 +31,7 @@
 
 })(jQuery);
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon 
-/*
-function myFunction() {
-  var x = document.getElementById("nav");
-  if (x.className === "header_nav") {
-    x.className += " responsive";
-  } else {
-    x.className = "header_nav";
-  }
-}
-*/
+/* Top Navigation Menu*/
 
 const navigationBar = document.getElementById("nav");
 
@@ -55,7 +45,7 @@ window.addEventListener('resize', () => {
   }
 })
 
-/* Portfolio ----- DRAFT */
+/* Portfolio ----- Not used */
 
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
@@ -105,7 +95,7 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-/* Modal ----- DRAFT */
+/* Modal ----- Not used */
 
 var modal = document.getElementById('myModal');
 var images = document.getElementsByClassName('myImages');
@@ -128,24 +118,5 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-/* top_button ----- TODO */
+/* back_to_top button ----- TODO */
 
-//Get the button:
-mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
