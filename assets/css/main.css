@@ -3654,6 +3654,15 @@ input, select, textarea {
 					padding: 0;
 				}
 
+/* Button UP */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
