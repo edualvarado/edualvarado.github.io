@@ -3656,83 +3656,24 @@ input, select, textarea {
 
 /* top_button ----- TODO */
 
-	#back-to-top-btn {
-	  display: none;
-	  position: fixed;
-	  bottom: 20px;
-	  right: 20px;
-	  font-size: 26px;
-	  width: 50px;
-	  height: 50px;
-	  background-color: #fff;
-	  color: #333;
-	  cursor: pointer;
-	  outline: none;
-	  border: 3px solid #333;
-	  border-radius: 50%;
-	  transition-duration: 0.2s;
-	  transition-timing-function: ease-in-out;
-	  transition-property: background-color, color;
-	}
-	#back-to-top-btn:hover, #back-to-top-btn:focus {
-	  background-color: #333;
-	  color: #fff;  
+	#myBtn {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Fixed/sticky position */
+	  bottom: 20px; /* Place the button at the bottom of the page */
+	  right: 30px; /* Place the button 30px from the right */
+	  z-index: 99; /* Make sure it does not overlap */
+	  border: none; /* Remove borders */
+	  outline: none; /* Remove outline */
+	  background-color: red; /* Set a background color */
+	  color: white; /* Text color */
+	  cursor: pointer; /* Add a mouse pointer on hover */
+	  padding: 15px; /* Some padding */
+	  border-radius: 10px; /* Rounded corners */
+	  font-size: 18px; /* Increase font size */
 	}
 
-	/* Animations */
-	.btnEntrance {
-	  animation-duration: 0.5s;
-	  animation-fill-mode: both;
-	  animation-name: btnEntrance;
-	}
-	/* zoomIn */
-	/* @keyframes btnEntrance { 
-	  from {
-	    opacity: 0;
-	    transform: scale3d(0.3, 0.3, 0.3);
-	  }
-	  to {
-	    opacity: 1;
-	  }    
-	} */
-
-	/* fadeInUp */
-	@keyframes btnEntrance {
-	  from {
-	    opacity: 0;
-	    transform: translate3d(0, 100%, 0);
-	  }
-	  to {
-	    opacity: 1;
-	    transform: translate3d(0, 0, 0);
-	  }
-	}
-
-	.btnExit {
-	  animation-duration: 0.25s;
-	  animation-fill-mode: both;  
-	  animation-name: btnExit;
-	}
-	/* zoomOut */
-	/* @keyframes btnExit {
-	  from {
-	    opacity: 1;
-	  }
-	  to {
-	    opacity: 0;
-	    transform: scale3d(0.3, 0.3, 0.3);
-	  }
-	} */
-
-	/* fadeOutDown */
-	@keyframes btnExit {
-	  from {
-	    opacity: 1;
-	  }
-	  to {
-	    opacity: 0;
-	    transform: translate3d(0, 100%, 0);
-	  }
+	#myBtn:hover {
+	  background-color: #555; /* Add a dark-grey background on hover */
 	}
 
 /* XLarge */
