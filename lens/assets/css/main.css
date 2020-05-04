@@ -1030,6 +1030,7 @@ input, select, textarea {
 /* Thumbnails */
 
 	#thumbnails {
+		background: #fff; /* ADDED */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
