@@ -171,7 +171,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #00D3B7;
+			color: #6bd4c8; /*#00D3B7;*/
 		}
 
 	strong, b {
