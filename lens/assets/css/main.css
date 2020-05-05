@@ -957,8 +957,19 @@ input, select, textarea {
 
 		}
 
-/* Header_nav ----- DRAFT */
+/* Image Classification ----- DRAFT */
 
+	.image_classification a {
+	    display: block;
+	    float: left;
+	    height: 50px;
+	    width: 100px;
+	    margin-right: 5px;
+	}
+
+	.title_div a.last {
+	    margin-right: 0;
+	}
 
 /* Header */
 
