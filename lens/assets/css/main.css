@@ -1044,7 +1044,8 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 15px 0.75em;
+		padding: 0px 40px; /*padding: 15px 0.75em;*/
+
 	}
 
 		#thumbnails article {
