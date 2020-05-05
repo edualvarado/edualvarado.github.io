@@ -959,17 +959,7 @@ input, select, textarea {
 
 /* Image Classification ----- DRAFT */
 
-	.image_classification a {
-	    display: block;
-	    float: left;
-	    height: 50px;
-	    width: 100px;
-	    margin-right: 5px;
-	}
 
-	.image_classification a.last {
-	    margin-right: 0;
-	}
 
 /* Header */
 
@@ -984,6 +974,10 @@ input, select, textarea {
 			font-size: 30px;
 			line-height: 1.2em;
 			font-weight: 700;
+		}
+
+		header li {
+			display:inline-block;
 		}
 
 /* Footer */
