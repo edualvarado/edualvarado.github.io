@@ -869,7 +869,7 @@ input, select, textarea {
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
-		text-align: right;
+		text-align: left; /* right */
 		visibility: visible;
 		z-index: 10000;
 		right: 0;
