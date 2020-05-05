@@ -156,7 +156,7 @@ input, select, textarea {
 		font-weight: 300; /*400;*/
 		line-height: 1.65em; /*1.65;*/
 		font-size: 16pt; /*1em;*/
-		color: #fff;
+		color: rgba(0, 0, 0, 0.75);
 	}
 
 	a {
@@ -176,7 +176,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #000; /* #fff */
+		color: rgba(0, 0, 0, 0.75); /* #fff */
 	}
 
 	em, i {
@@ -191,7 +191,7 @@ input, select, textarea {
 		font-weight: 300; /*400*/
 		line-height: 1em; /*1.25;*/
 		margin: 0 0 0.5em 0;
-		color: #000; /* #fff */
+		color: rgba(0, 0, 0, 0.75); /* #fff */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -828,6 +828,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		color: rgba(0, 0, 0, 0.75);
 	}
 
 		ul.icons li {
@@ -982,7 +983,7 @@ input, select, textarea {
 
 		/* ADDED ----- DRAFT */
 		#footer a {
-			border-bottom-color: rgba(255, 255, 255, 0.75); 
+			border-bottom-color: rgba(0, 0, 0, 0.75); /* rgba(255, 255, 255, 0.75); */
 		}
 
 			#footer a:hover {
@@ -1005,7 +1006,7 @@ input, select, textarea {
 		#footer .copyright {
 			font-size: 0.8em;
 			list-style: none;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(0, 0, 0, 0.75); /* rgba(255, 255, 255, 0.75); */
 			padding: 0;
 		}
 
