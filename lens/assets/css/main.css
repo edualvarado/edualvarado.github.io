@@ -986,7 +986,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				color: #000; /* #ffffff */
 			}
 
 		/* ADDED ----- DRAFT */
@@ -995,7 +995,7 @@ input, select, textarea {
 		}
 
 			#footer .icons a {
-				border-bottom-color: #ffffff; 
+				border-bottom-color: #000; /* #ffffff */
 			}
 
 				#footer .icons a:hover {
