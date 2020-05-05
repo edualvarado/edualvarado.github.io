@@ -976,10 +976,15 @@ input, select, textarea {
 			font-weight: 700;
 		}
 
-		header li {
+		#header li {
 			display:inline-block;
 			margin-right: 10px;
 		}
+
+		#header ul.icons {
+			text-align: center;		
+		}
+
 
 /* Footer */
 
