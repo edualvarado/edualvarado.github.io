@@ -745,10 +745,4 @@ var main = (function($) { var _ = {
 
 }; return _; })(jQuery); main.init();
 
-/* Unable save image */
 
-$('img').mousedown(function (e) {
-  if(e.button == 2) { // right click
-    return false; // do nothing!
-  }
-}
