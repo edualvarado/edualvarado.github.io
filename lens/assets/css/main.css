@@ -1110,6 +1110,15 @@ input, select, textarea {
 					box-shadow: inset 0 0 0 2px #00D3B7, inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
 					opacity: 0;
 					z-index: 1;
+					
+					/* DRAFT */
+					user-drag: none; 
+					user-select: none;
+					-moz-user-select: none;
+					-webkit-user-drag: none;
+					-webkit-user-select: none;
+					-ms-user-select: none;
+					/* --- */
 				}
 
 				#thumbnails article .thumbnail:focus:before {
