@@ -987,8 +987,8 @@ input, select, textarea {
 		}
 		*/
 
-
-		#header ul.image_tabs a:hover {
+		/* DRAFT */
+		#header a:hover {
 			color: #6bd4c8;
 		}
 
