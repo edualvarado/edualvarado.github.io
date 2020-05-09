@@ -988,6 +988,11 @@ input, select, textarea {
 		*/
 
 
+		#header ul.image_tabs a:hover {
+			color: #6bd4c8;
+		}
+
+
 /* Footer */
 
 	#footer {
