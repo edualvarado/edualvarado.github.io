@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");f
 
 /*
 	Photon by HTML5 UP
@@ -3428,9 +3428,10 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0;
-    			font-size: 3.5em;
+    			font-size: 3em;
     			line-height: 1.35em;
     			letter-spacing: 2px;
+			font-family: 'Montserrat', sans-serif;
 		}
 
 		#header p {
