@@ -2013,11 +2013,6 @@ input, select, textarea {
 		position: relative;
 	}
 
-	header h1 {
-		font-size: 3.5em;
-		line-height: 1.35em;
-	}
-
 	header h2 + p {
 		font-size: 1.25em;
 		line-height: 1.5em;
@@ -3433,6 +3428,8 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0;
+			font-size: 3.5em;
+			line-height: 1.35em;
 		}
 
 		#header p {
