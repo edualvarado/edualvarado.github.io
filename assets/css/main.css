@@ -2365,6 +2365,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			margin-left: auto; /* ADDED */
+    			margin-right: auto;  /* ADDED */
 		}
 
 		.image.left {
@@ -2394,7 +2396,7 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 90%; /* Modified from 100% */
+				width: 100%; /* Modified from 100% */
 			}
 
 /* List */
