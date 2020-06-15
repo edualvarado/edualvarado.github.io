@@ -3004,6 +3004,7 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 		text-align: center;
+		font-size: 0.83em; /* ADDED */
 	}
 
 		ul.major-icons li {
