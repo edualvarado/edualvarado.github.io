@@ -2739,6 +2739,7 @@ input, select, textarea {
 	  	top: 0;
 	  	width: 100%;
 	  	z-index: 100;
+		font-size: 16px; /* ADDED */
 	}
 
 		#header_nav_bg .icon {
