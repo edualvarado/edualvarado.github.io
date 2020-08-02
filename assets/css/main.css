@@ -2735,7 +2735,7 @@ input, select, textarea {
 	  	height: 3.5em;
 	  	left: 0;
 	  	line-height: 3.5em;
-	  	position: absolute;
+	  	position: fixed;
 	  	top: 0;
 	  	width: 100%;
 	  	z-index: 100;
