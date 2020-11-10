@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+	@import url("fontawesome-all.min.css");
 /* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");f */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -7,6 +7,12 @@
 	Photon by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	COLORS:
+	#2f8871
+	#283477
+	#612e65
+
 */
 
 html, body, div, span, applet, object,
@@ -2726,7 +2732,7 @@ input, select, textarea {
 	#header_nav_bg {
 		/*background: rgba(0, 0, 0, 0);*/
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #77377c 10%, #4555b5 50%, #43c3a3);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #2f8871 10%, #283477 50%, #612e65);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		
@@ -3346,7 +3352,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #77377c 10%, #4555b5 50%, #43c3a3); /*  linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #2f8871 10%, #283477 50%, #612e65); /*  linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3549,7 +3555,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #77377c, #4555b5 50%, #43c3a3 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #2f8871, #283477 50%, #612e65 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
