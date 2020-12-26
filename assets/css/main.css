@@ -3770,7 +3770,7 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-				padding: 3em 3em 3em 3em ; // top was 5
+				padding: 3em 3em 3em 3em ; /* top was 5 */
 			}
 
 		/* Header */
