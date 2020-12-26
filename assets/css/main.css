@@ -3755,6 +3755,19 @@ input, select, textarea {
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+		
+			
+		/* Button */ /* NEW */
+
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			button,
+			.button {
+				height: 3em;
+				line-height: 3em;
+				padding: 0px 40px; /* NEW */
+			}
 
 		/* List */
 
