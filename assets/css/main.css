@@ -3766,7 +3766,7 @@ input, select, textarea {
 			.button {
 				height: 3em;
 				line-height: 3em;
-				padding: 0px 40px; /* NEW */
+				padding: 0px 34px; /* NEW */
 			}
 
 		/* List */
