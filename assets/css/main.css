@@ -2424,7 +2424,7 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.0em; /* before 0.5 em */
+			/* before 0.5 em */
 		}
 
 		ul.alt {
