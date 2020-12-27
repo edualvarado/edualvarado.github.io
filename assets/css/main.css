@@ -3725,7 +3725,7 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-				padding: 4em 0 2em 0 ;
+				padding: 2em 0 0.5em 0 ; /* before 4 0 2 0 */
 			}
 
 				.main.style2 {
@@ -3784,7 +3784,7 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-				padding: 3em 3em 3em 3em ; /* top was 5 */
+				padding: 2em 2em 0.5em 2em ; /* top was 5 - 3em 3em 3em 3em*/
 			}
 
 		/* Header */
@@ -3884,7 +3884,7 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 2em 2em 0.5em 2em ; /* 3em 1.5em 1em 1.5em */
 			}
 
 		/* Header */
@@ -3929,7 +3929,7 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 2em 2em 0.5em 2em ; /* 2em 1.5em 0.1em 1.5em */
 			}
 
 		/* Header */
