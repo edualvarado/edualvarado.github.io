@@ -2628,13 +2628,10 @@ input, select, textarea {
 	    transition: all 0.3s ease;
 	}
 
-	#return-to-top a {
-	    border-bottom: dotted 0px #666;
-	}
-
 	#return-to-top:hover {
 	    background: rgba(40, 52, 119, 0.8);
 	}
+
 	#return-to-top:hover i {
 	    color: #fff;
 	    top: 5px;
