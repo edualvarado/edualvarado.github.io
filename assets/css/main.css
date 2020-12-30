@@ -2880,7 +2880,7 @@ input, select, textarea {
 	  	left: 0;
 	  	line-height: 3.5em;
 	  	position: fixed;
-	  	top: -50px;
+	  	top: -60px;
 	  	width: 100%;
 	  	z-index: 100;
 		font-size: 16px; /* ADDED */
