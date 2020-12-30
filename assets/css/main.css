@@ -2613,6 +2613,7 @@ input, select, textarea {
 	    -o-transition: all 0.3s ease;
 	    transition: all 0.3s ease;
 	}
+
 	#return-to-top i {
 	    color: #fff;
 	    margin: 0;
@@ -2626,6 +2627,11 @@ input, select, textarea {
 	    -o-transition: all 0.3s ease;
 	    transition: all 0.3s ease;
 	}
+
+	#return-to-top a {
+	    border-bottom: dotted 0px #666;
+	}
+
 	#return-to-top:hover {
 	    background: rgba(40, 52, 119, 0.8);
 	}
