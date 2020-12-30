@@ -45,7 +45,7 @@ window.addEventListener('resize', () => {
   }
 })
 
-/* Arrow to top */
+/* NEW Arrow to top */
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {
