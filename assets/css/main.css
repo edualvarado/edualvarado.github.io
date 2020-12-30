@@ -12,6 +12,9 @@
 	#2f8871
 	#283477
 	#612e65
+	
+	# Only for drop-menu
+	#1f2759
 
 */
 
@@ -2708,13 +2711,15 @@ input, select, textarea {
 			top: 0;
 		}
 
-	  	#header_nav .responsive ul {}
+	  	#header_nav .responsive ul {
+			text-align: center;
+		}
 
 	  	#header_nav .responsive li:not(.fixed) {
 	    		float: none;
 	    		display: block;
-	    		text-align: left;
-	    		background-color: rgba(18, 63, 84, 0.8);
+	    		text-align: center;
+	    		background-color: rgba(31, 39, 89, 1);
 	  	}
 
 	  	#header_nav .responsive a {
