@@ -45,7 +45,7 @@ window.addEventListener('resize', () => {
   }
 })
 
-/* NEW Arrow to top */
+/* Arrow to Top */
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {
@@ -133,5 +133,3 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-
-/* back_to_top button ----- TODO */
