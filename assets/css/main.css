@@ -2627,14 +2627,14 @@ input, select, textarea {
 	    transition: all 0.3s ease;
 	}
 	#return-to-top:hover {
-	    background: rgba(47, 136, 113, 0.9);
+	    background: rgba(40, 52, 119, 0.8);
 	}
 	#return-to-top:hover i {
-	    color: rgba(40, 52, 119, 0.8);
+	    color: #fff;
 	    top: 5px;
 	}
 
-/* Header_nav ----- DRAFT */
+/* Header_nav */
 
 	#page-wrapper {
 		padding-top: 3.5em;
@@ -2771,7 +2771,7 @@ input, select, textarea {
 	}
 
 
-/* Header_nav_bg ----- DRAFT */
+/* Header_nav_bg */
 
 	#page-wrapper {
 		padding-top: 3.5em;
