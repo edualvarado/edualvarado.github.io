@@ -387,7 +387,7 @@ input, select, textarea {
 
 		.row > .col-6 {
 			width: 50%;
-		}
+		}galler
 
 		.row > .off-6 {
 			margin-left: 50%;
@@ -2947,6 +2947,41 @@ input, select, textarea {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container_gallery {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image_gallery {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay_gallery {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container_gallery:hover .overlay {
+  opacity: 1;
 }
 
 /* Actions */
