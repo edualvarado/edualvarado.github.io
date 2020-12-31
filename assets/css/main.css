@@ -2949,6 +2949,8 @@ input, select, textarea {
   }
 }
 
+* {box-sizing: border-box}
+
 /* Container needed to position the overlay. Adjust the width as needed */
 .container_gallery {
   position: relative;
@@ -2980,7 +2982,7 @@ input, select, textarea {
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.container_gallery:hover .overlay {
+.container_gallery:hover .overlay_gallery {
   opacity: 1;
 }
 
