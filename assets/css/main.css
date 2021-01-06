@@ -2982,8 +2982,14 @@ input, select, textarea {
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.container_gallery:hover .overlay_gallery {
+/*.container_gallery:hover .overlay_gallery {
   opacity: 1;
+}*/
+
+@media(hover: hover) and (pointer: fine) {
+    .container_gallery:hover .overlay_gallery {
+        opacity: 1;
+    }
 }
 
 /* Actions */
