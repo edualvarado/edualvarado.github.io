@@ -2922,8 +2922,8 @@ input, select, textarea {
 
 /* Create four equal columns that sits next to each other */
 .column_gallery {
-  flex: 25%;
-  max-width: 25%;
+  flex: 33%; /* Before 25% for 4 columns*/ 
+  max-width: 33%; /* Before 25% for 4 columns*/ 
   padding: 0 4px;
 }
 
