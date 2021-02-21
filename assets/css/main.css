@@ -2919,7 +2919,9 @@ input, select, textarea {
 			top: 0;
 		}
 
-	  	#header_nav_bg .responsive ul {}
+	  	#header_nav_bg .responsive ul {
+			text-align: center;
+		}
 
 	  	#header_nav_bg .responsive li:not(.fixed) {
 	    		float: none;
