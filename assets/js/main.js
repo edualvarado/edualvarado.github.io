@@ -133,3 +133,8 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+function activateDarkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
