@@ -2920,8 +2920,8 @@ input, select, textarea {
 	  	#header_nav_bg .responsive li:not(.fixed) {
 	    		float: none;
 	    		display: block;
-	    		text-align: left;
-	    		background-color: rgba(18, 63, 84, 0.8);
+	    		text-align: center;
+	    		background-color: rgba(31, 39, 89, 1);
 	  	}
 
 	  	#header_nav_bg .responsive a {
