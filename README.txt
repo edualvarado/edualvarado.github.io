@@ -1,6 +1,22 @@
-Welcome to my Github Page! 
+Welcome to my homepage! 
+
+###### Important update!
+
+This is the HTML/CSS/JS source code for my first homepage version hosted in [edualvarado.github.io](https://edualvarado.github.io/), but it is an old version. Therefore, it will **not** be updated with new content! 
+
+I decided to migrate my new version homepage to WordPress/PHP. 
+
+**Check it out!** :) 
+
+[https://edualvarado.com/](https://edualvarado.com/)
 
 See LICENSE.txt and LICENSE_webpage_template.txt for more information about the content rights.
+
+
+
+---
+
+
 
 HTML5 UP TEMPLATE
 -----------------
@@ -29,10 +45,10 @@ Credits:
 
 	Demo Images:
 		Unsplash (unsplash.com)
-
+	
 	Icons:
 		Font Awesome (fontawesome.io)
-
+	
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
