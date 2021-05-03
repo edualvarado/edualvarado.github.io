@@ -1,6 +1,6 @@
 Welcome to my homepage! 
 
-###### Important update!
+### Important update!
 
 This is the HTML/CSS/JS source code for my first homepage version hosted in [edualvarado.github.io](https://edualvarado.github.io/), but it is an old version. Therefore, it will **not** be updated with new content! 
 
